@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right bottom, red, blue);
+}
+.container{
+    padding:  50px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+span{
+    padding: 0px 8px;
+    background-color: white;
+
+}
+.one{
+    margin-bottom: 30px;
+    background: #fff;
+    /* padding: 0px 10px; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.one button{
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #bbb7b7;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
